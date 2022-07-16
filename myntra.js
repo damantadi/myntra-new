@@ -9,7 +9,7 @@ app.get("/",function(req,res)
 {
     res.render("Home"); 
 })
-app.get("/men",function(req,res)
+app.get("/views/men",function(req,res)
 {
     
     res.render("men"); 
